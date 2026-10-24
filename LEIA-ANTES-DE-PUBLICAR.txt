@@ -1,0 +1,12 @@
+MANUAL APS 3.0 — FRONTEND PÚBLICO (sem textos clínicos completos)
+
+Este pacote é destinado ao GitHub Pages, mas só deve ser publicado após:
+1. A importação D1 ter retornado 4658 cards e 775 condições.
+2. O Worker da etapa 2 estar implantado com /v1/condition e /v1/search.
+3. O ALLOWED_ORIGIN no Worker ser exatamente a origem do seu domínio GitHub Pages.
+4. O teste GET /api/health mostrar a contagem esperada.
+
+config.js já tem o endereço do Worker mostrado na captura.
+Teste Adultos, Gestantes, Pediatria, busca, cards, calculadora e console.
+Não exponha os arquivos SQL ou o ZIP do backend neste repositório.
+Não substitua o aplicativo atual antes de testar uma versão em paralelo.

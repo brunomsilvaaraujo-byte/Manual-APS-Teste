@@ -1,0 +1,25 @@
+{
+  "name": "Manual APS 3.0 — Condutas integradas",
+  "short_name": "Manual APS",
+  "description": "Manual APS 3.0 cumulativo com 4.658 registros clínicos. Adultos, Gestantes e Pediatria: Diagnóstico, Conduta com posologias e Acompanhamento. Calculadoras pediátricas e PWA mantidos.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#edf4f7",
+  "theme_color": "#113a59",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
